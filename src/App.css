@@ -4,34 +4,65 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Sriracha', cursive; */
 
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight : 900;
 
-
+}
 
 header {
-  font-family: 'Roboto', sans-serif;
+  display : flex;
+  flex-direction : column;
   position : relative;
   justify-content : space-evenly;
 }
 
 .upper-header-bar {
+  display : flex;
+  justify-content : flex-end;
+  align-items : center;
+  height: 50px;
   font-weight : 700;
   background : #003399;
   color : white;
 }
 
+.upper-header-bar > span{
+  padding-right: 10px;
+  padding-left : 5px;
+}
+
 .lower-header-bar {
+  display : flex;
+  align-items : center;
+  justify-content : space-evenly;
+
+
+
   background : #3399ff;
   color : white;
+
 }
 
-.lower-header-bar > h1 {
+.logo {
   font-family: 'Sriracha', cursive;
+  font-size: 3em;
+
 }
 
+.lower-header-bar > * {
+  padding : 10px;
+}
+
+.lower-header-bar > input {
+  border-radius : 0.2em;
+  border : none;
+  color : #aaa;
+}
 
 footer {
   position: fixed;
-  background:#e6ffff;
+  background:#b3ffff;
   bottom : 0;
   height : 90px;
   width : 100%;

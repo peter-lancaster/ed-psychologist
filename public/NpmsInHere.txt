@@ -1,0 +1,4 @@
+npm i react-responsive-carousel
+
+npm i react-router-dom
+
