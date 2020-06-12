@@ -6,7 +6,7 @@ function Header() {
     return (
         <header>
             <div className="upper-header-bar">
-                <i class="ri-phone-line"></i> <span>0113 2857 7373</span>
+                <i class="ri-phone-line"></i> <span>0207 811 8055</span>
                 <i class="ri-mail-line"></i> <span>janicewonky@emailprovider.com</span>
             </div>
             <div className="lower-header-bar">

@@ -1,13 +1,38 @@
+/* font-family: 'Beth Ellen', cursive;
+font-family: 'Ma Shan Zheng', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sriracha', cursive; */
+
+
+
+
 header {
-  border : grey 1px solid;
+  font-family: 'Roboto', sans-serif;
+  position : relative;
   justify-content : space-evenly;
-
 }
 
-header > h1 {
-
+.upper-header-bar {
+  font-weight : 700;
+  background : #003399;
+  color : white;
 }
+
+.lower-header-bar {
+  background : #3399ff;
+  color : white;
+}
+
+.lower-header-bar > h1 {
+  font-family: 'Sriracha', cursive;
+}
+
 
 footer {
-  border : blue 1px solid;
+  position: fixed;
+  background:#e6ffff;
+  bottom : 0;
+  height : 90px;
+  width : 100%;
 }
