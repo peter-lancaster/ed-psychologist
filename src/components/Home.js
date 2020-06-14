@@ -1,6 +1,5 @@
 import React from "react"
 import HomePageCarousel from "./HomePageCarousel"
-import CarouselTextBox from "./CarouselTextBox"
 
 function Home() {
     return (

@@ -14,7 +14,7 @@ font-family: 'Sriracha', cursive; */
   --white: white;
 
   --carousel-view-height : 40vh;
-  --carousel-view-width : 30vw;
+  --carousel-view-width : 40vw;
 }
 
 body {
@@ -29,12 +29,16 @@ header {
   justify-content : space-evenly;
 }
 
+/* exclude icons from font-weight 900 applied to body */
+[class^="ri-"] {
+  font-weight : 100;
+  }
+
 .upper-header-bar {
   display : flex;
   justify-content : flex-end;
   align-items : center;
   height: 50px;
-  font-weight : 700;
   background : var(--dark-blue);
   color : white;
 }
@@ -53,8 +57,9 @@ header {
 }
 
 .logo {
+  color : var(--white);
   font-family: 'Sriracha', cursive;
-  font-size: 3em;
+  font-size: 4em;
 }
 
 .lower-header-bar > * {
@@ -67,16 +72,6 @@ header {
   color : #aaa;
 }
 
-.slider-image {
-  position : relative;
-  display : flex;
-  align-items : center;
-  justify-items : center;
-  height : 40vh;
-  width : 30vw;
-  z-index : 2;
-}
-
 .homepage-main {
   display : flex;
   flex-direction : column;
@@ -86,23 +81,44 @@ header {
 .homepage-carousel {
   margin : 30px;
   border : black 1px solid;
-  height : 40vh;
-  width : 30vw;
+  height : var(--carousel-view-height);
+  width : var(--carousel-view-width);
   z-index : 1;
 }
 
-.carousel-text-box {
-  color : var(--white);
-  height : 10vh;
-  width : 27vw;
-  background-color : var(--dark-blue);
-  opacity : 0.5;
-  border : 1px solid black;
-  position : absolute;
-  bottom : 5%; 
-  margin : 0;
-  z-index : 4;
+.homepage-carousel-item {
+  position : relative;
+
 }
+
+.slider-image {
+  position : relative;
+  height : var(--carousel-view-height);
+  width : var(--carousel-view-width);
+  z-index : 2;
+}
+
+.carousel-text-box {
+  /* https://www.tutorialrepublic.com/faq/how-to-position-text-over-an-image-using-css.php */
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 65%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 80%; /* Set the width of the positioned div */
+
+  color : var(--white);
+  font-size : 1em;
+  background-color : rgba(0,51,153,0.4);
+  /* used rgba for background color so that white text is not affected 
+  by opacity https://stackoverflow.com/questions/33512070/center-text-in-box-with-opacity-and-make-text-solid */
+  border : 1px solid black; 
+  border-radius : 6px;
+}
+
+
 
 footer {
   display : flex;
