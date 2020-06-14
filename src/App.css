@@ -4,10 +4,20 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Sriracha', cursive; */
 
+:root {
+  --black: #150605;
+  --red: #EA453C;
+  --pink: #F47B6E;
+  --light-blue: #EFFBFE;
+  --blue: #ACE6EC;
+
+  --carousel-view-height : 40vh;
+  --carousel-view-width : 30vw;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight : 900;
-
 }
 
 header {
@@ -36,18 +46,13 @@ header {
   display : flex;
   align-items : center;
   justify-content : space-evenly;
-
-
-
   background : #3399ff;
   color : white;
-
 }
 
 .logo {
   font-family: 'Sriracha', cursive;
   font-size: 3em;
-
 }
 
 .lower-header-bar > * {
@@ -60,7 +65,43 @@ header {
   color : #aaa;
 }
 
+.slider-image {
+  position : relative;
+  height : 40vh;
+  width : 30vw;
+  z-index : 2;
+}
+
+.homepage-main {
+  display : flex;
+  flex-direction : column;
+  align-items : center;
+}
+
+.homepage-carousel {
+  margin : 30px;
+  border : black 1px solid;
+  height : 40vh;
+  width : 30vw;
+  z-index : 1;
+}
+
+.carousel-text-box {
+  height : 10vh;
+  width : 27vw;
+  background-color : blue;
+  opacity : 0.3;
+  border : 1px solid black;
+  position : absolute;
+  z-index : 4;
+}
+
 footer {
+  display : flex;
+  justify-content : center;
+  align-items : flex-end;
+  color: rgb(68, 67, 67);
+  font-size : 0.9em;
   position: fixed;
   background:#b3ffff;
   bottom : 0;
