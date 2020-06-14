@@ -1,11 +1,12 @@
 import React from "react"
 import HomePageCarousel from "./HomePageCarousel"
+import CarouselTextBox from "./CarouselTextBox"
 
 function Home() {
     return (
     <div className="homepage-main">
         <div >
-            <HomePageCarousel />
+            <HomePageCarousel /> 
         </div>
         <div className="welcome-message">
             <h1>Welcome to the website of Jenny Smith FRSA </h1>

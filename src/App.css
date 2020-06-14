@@ -9,7 +9,9 @@ font-family: 'Sriracha', cursive; */
   --red: #EA453C;
   --pink: #F47B6E;
   --light-blue: #EFFBFE;
+  --dark-blue: #003399;
   --blue: #ACE6EC;
+  --white: white;
 
   --carousel-view-height : 40vh;
   --carousel-view-width : 30vw;
@@ -33,7 +35,7 @@ header {
   align-items : center;
   height: 50px;
   font-weight : 700;
-  background : #003399;
+  background : var(--dark-blue);
   color : white;
 }
 
@@ -67,6 +69,9 @@ header {
 
 .slider-image {
   position : relative;
+  display : flex;
+  align-items : center;
+  justify-items : center;
   height : 40vh;
   width : 30vw;
   z-index : 2;
@@ -87,12 +92,15 @@ header {
 }
 
 .carousel-text-box {
+  color : var(--white);
   height : 10vh;
   width : 27vw;
-  background-color : blue;
-  opacity : 0.3;
+  background-color : var(--dark-blue);
+  opacity : 0.5;
   border : 1px solid black;
   position : absolute;
+  bottom : 5%; 
+  margin : 0;
   z-index : 4;
 }
 
