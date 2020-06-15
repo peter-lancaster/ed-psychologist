@@ -5,5 +5,9 @@ npm install remixicon --save
 npm i react-slick
 npm install slick-carousel
 
+https://jaredpalmer.com/formik/docs/tutorial
 npm install formik --save
+npm install yup --save
+npm i @emotion/styled
+npm i @emotion/core
 
