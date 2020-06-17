@@ -29,12 +29,14 @@ a:link, a:visited {
 .bigger-heavier-font {
   font-weight : 400;
   font-size : 1.7em;
+  line-height : 0.5em;
 }
 
 header {
+  position : relative;
+
   display : flex;
   flex-direction : column;
-  position : relative;
   justify-content : space-evenly;
   color : var(--white);
 }
@@ -142,6 +144,7 @@ header {
   top: 60%; /* Adjust this value to move the positioned div up and down */
   text-align: center;
   width: 90%; /* Set the width of the positioned div */
+  
 
   color : var(--white);
   background-color : rgba(0,51,153,0.65);
@@ -160,7 +163,7 @@ footer {
   font-size : 0.9em;
   background:#b3ffff;
 
-  /* position: fixed; */
+  position: fixed;
   bottom : 0;
   height : 90px;
   width : 100%;

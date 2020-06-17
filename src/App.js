@@ -10,7 +10,7 @@ import Contact from "./components/Contact"
 
 function App() {
   return (
-    <>
+    <div className="page-container">
     <Header />
       <Switch>
         <Route exact path ="/"><Home/></Route>
@@ -19,7 +19,7 @@ function App() {
         <Route path ="/contact"><Contact/></Route>
       </Switch>
      <Footer />
-    </>
+    </div>
   )
 }
 
