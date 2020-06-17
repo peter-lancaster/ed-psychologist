@@ -27,7 +27,7 @@ const settings = {
           <CarouselItem 
           imageUrl={"https://www.parentspartner.com/wp-content/uploads/2011/06/angry-child-boy.jpg"} 
           textTitle={"Educational psychologist"}
-          textPara={"Jenny Smith is a Consultant Educational Psychologist who provides independent assessments of children with special educational needs."}
+          textPara={"Jenny Wilson is a Consultant Educational Psychologist who provides independent assessments of children with special educational needs."}
           />
           <CarouselItem 
           imageUrl={"https://i1.wp.com/lindastade.com/wp-content/uploads/2018/06/shutterstock_141082792-2-e1542560322233.jpg?resize=1024%2C640&ssl=1"} 

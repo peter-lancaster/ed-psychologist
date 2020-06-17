@@ -7,7 +7,7 @@ function Header() {
     return (
         <header>
             <div className="upper-header-bar">
-                <i className="ri-mail-line ri-2x"></i> <span>jennysmith@emailprovider.com</span>
+                <i className="ri-mail-line ri-2x"></i> <span>jennywilson@emailprovider.com</span>
                 <i className="ri-phone-line ri-2x"></i> <span>0207 811 8055</span>
             </div>
 
@@ -16,7 +16,7 @@ function Header() {
 
             <div className="lower-header-bar">
 
-                <h1><Link to="/">Jenny Smith</Link></h1>
+                <h1><Link to="/">Jenny Wilson</Link></h1>
                 <p><Link to="/">Home</Link></p>
                 <p><Link to="/about">About</Link></p>
                 <p><Link to="/services">Services</Link></p>
@@ -24,8 +24,8 @@ function Header() {
 
                 {/* <NavItem text={"Contact"} router-component={Link} /> */}
                 <div className="lower-header-search-box">
-                    <i className="ri-search-line ri-2x"></i>
                     <input type="text" placeholder="Search website...." ></input>
+                    <i className="ri-search-line ri-2x"></i>
                 </div>
             </div>
         </header>
