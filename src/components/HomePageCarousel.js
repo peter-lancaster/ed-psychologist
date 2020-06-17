@@ -25,12 +25,12 @@ const settings = {
     <div className="homepage-carousel">
         <Slider {...settings}>
           <CarouselItem 
-          imageUrl={"https://www.gannett-cdn.com/media/2018/05/14/USATODAY/usatsports/wp-USAT-allthemoms-front1-20750-angrychild.jpg?width=1080&quality=50"} 
+          imageUrl={"https://www.parentspartner.com/wp-content/uploads/2011/06/angry-child-boy.jpg"} 
           textTitle={"Educational psychologist"}
           textPara={"Jenny Smith is a Consultant Educational Psychologist who provides independent assessments of children with special educational needs."}
           />
           <CarouselItem 
-          imageUrl={"http://www.markmerrill.com/wp-content/uploads/2018/10/10-18-18-angry-child.jpg"} 
+          imageUrl={"https://i1.wp.com/lindastade.com/wp-content/uploads/2018/06/shutterstock_141082792-2-e1542560322233.jpg?resize=1024%2C640&ssl=1"} 
           textTitle={"Autism Disorders"}
           textPara={"Some text here about the treatment of autism"}
           />

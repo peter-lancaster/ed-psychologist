@@ -25,6 +25,7 @@ body {
 a {
   text-decoration: none;
 }
+
 a:link, a:visited {
   color:inherit;
 }
@@ -35,7 +36,6 @@ header {
   position : relative;
   justify-content : space-evenly;
 }
-
 
 .upper-header-bar {
   display : flex;
@@ -93,7 +93,6 @@ header {
   display : flex;
   flex-direction : column;
   align-items : center;
-  margin-bottom : 120px;
 }
 
 .homepage-carousel {
@@ -108,11 +107,23 @@ header {
   position : relative;
 }
 
+.homepage-welcome-message {
+  margin : 0px 50px 20px 50px;
+  display : flex;
+  flex-direction : column;
+  align-items : center;
+  text-align : center;
+  font-weight : bold;
+}
+
 .slider-image {
   position : relative;
   height : var(--carousel-view-height);
   width : var(--carousel-view-width);
   z-index : 2;
+  object-fit : cover;
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit */
+
 }
 
 .carousel-text-box {
@@ -142,8 +153,9 @@ footer {
   align-items : flex-end;
   color: rgb(68, 67, 67);
   font-size : 0.9em;
-  position: fixed;
   background:#b3ffff;
+
+  /* position: fixed; */
   bottom : 0;
   height : 90px;
   width : 100%;
