@@ -15,7 +15,7 @@ font-family: 'Sriracha', cursive; */
   --mid-grey : #827f7e;
 
   --carousel-view-height : 400px;
-  --carousel-view-width : 700px;
+  --carousel-view-width : 600px;
 }
 
 a {
@@ -26,12 +26,23 @@ a:link, a:visited {
   color:inherit;
 }
 
-.bigger-heavier-font {
-  font-weight : 400;
-  font-size : 1.7em;
-  line-height : 0.5em;
+.medium-heavy-font {
+  font-weight : 500;
+  font-size : 1.4em;
+  height : 0.7em;
 }
 
+.big-heavy-font {
+  font-weight : 400;
+  font-size : 1.6em;
+}
+
+/* exclude icons from font-weight 900 applied to body */
+[class^="ri-"] {
+  font-weight : 100;
+  }
+
+/* ====================================================================== */
 header {
   position : relative;
 
@@ -45,7 +56,7 @@ header {
   display : flex;
   justify-content : flex-end;
   align-items : center;
-  height: 50px;
+  height: 40px;
   background : var(--dark-blue);
 }
 
@@ -55,19 +66,16 @@ header {
   font-size : 1.0em;
 }
 
-/* exclude icons from font-weight 900 applied to body */
-[class^="ri-"] {
-  font-weight : 100;
-  }
-  
 .lower-header-bar {
+  height : 110px;
+
+
   color : var(--white);
   display : flex;
   align-items : center;
   text-align : center;
   justify-content : space-evenly;
   background : #3399ff;
-
   text-decoration : none;
 }
 
@@ -82,7 +90,6 @@ header {
 
 .lower-header-search-box {
   position : relative;
-
 }
 
 .lower-header-search-box > input {
@@ -98,7 +105,16 @@ header {
   position : absolute; 
 }
 
+/* ====================================================================== */
+
+main {
+  padding-bottom : 90px;
+}
+
+/* ====================================================================== */
+
 .homepage-main {
+  
   display : flex;
   flex-direction : column;
   align-items : center;
@@ -116,14 +132,6 @@ header {
   position : relative;
 }
 
-.homepage-welcome-message {
-  margin : 0px 50px 20px 50px;
-  display : flex;
-  flex-direction : column;
-  align-items : center;
-  text-align : center;
-}
-
 .slider-image {
   position : relative;
   height : var(--carousel-view-height);
@@ -138,12 +146,13 @@ header {
   /* https://www.tutorialrepublic.com/faq/how-to-position-text-over-an-image-using-css.php */
   position: absolute;
   z-index: 999;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin : 0 3% 0 3%;
   left: 0;
   right: 0;
   top: 60%; /* Adjust this value to move the positioned div up and down */
   text-align: center;
-  width: 90%; /* Set the width of the positioned div */
+  /* width: 90%; Set the width of the positioned div */
   
 
   color : var(--white);
@@ -154,22 +163,29 @@ header {
   border-radius : 6px;
 }
 
+.homepage-welcome-message {
+  margin : 0px 50px 15px 50px;
+  display : flex;
+  flex-direction : column;
+  align-items : center;
+  text-align : center;
+}
+
+/* ====================================================================== */
 
 footer {
+  position : absolute;
+  bottom : 0;
+  width : 100%;
+  height : 90px;
+
   display : flex;
   justify-content : flex-start;
-  align-items : flex-end;
   color: rgb(68, 67, 67);
   font-size : 0.9em;
   background:#b3ffff;
-
-  position: fixed;
-  bottom : 0;
-  height : 90px;
-  width : 100%;
 }
 
 footer > p {
-
   padding-left : 10px;
 }

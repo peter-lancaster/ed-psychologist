@@ -6,7 +6,7 @@ function CarouselItem({imageUrl,textTitle,textPara}) {
         <div className="homepage-carousel-item">
             <img className="slider-image" src={imageUrl}/>
             <div className="carousel-text-box" >
-                <p className="bigger-heavier-font">{textTitle}</p>
+                <p className="medium-heavy-font">{textTitle}</p>
                 <p>{textPara}</p>
             </div>
         </div>
