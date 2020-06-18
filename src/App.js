@@ -6,7 +6,8 @@ import {Switch, Route} from "react-router-dom"
 import Home from "./components/Home"
 import About from "./components/About"
 import Services from "./components/Services"
-import Contact from "./components/Contact"
+import ContactFormik from "./components/ContactFormik"
+import ContactHomeGrown from "./components/ContactHomeGrown"
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
           <Route exact path ="/"><Home/></Route>
           <Route path ="/about"><About/></Route>
           <Route path ="/services"><Services/></Route>
-          <Route path ="/contact"><Contact/></Route>
+          <Route path ="/contact-homegrown"><ContactHomeGrown/></Route>
+          <Route path ="/contact-formik"><ContactFormik/></Route>
         </Switch>
       </main>
     <Footer />

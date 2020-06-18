@@ -1,7 +1,6 @@
 import React from "react" 
 import {Link} from "react-router-dom"
 import 'remixicon/fonts/remixicon.css'
-import NavItem from "./components/NavItem"
 
 function Header() {
     return (
@@ -20,9 +19,8 @@ function Header() {
                 <p><Link to="/">Home</Link></p>
                 <p><Link to="/about">About</Link></p>
                 <p><Link to="/services">Services</Link></p>
-                <p><Link to="/contact">Contact</Link></p>
-
-                {/* <NavItem text={"Contact"} router-component={Link} /> */}
+                <p><Link to="/contact-homegrown">Home Grown Contact Form</Link></p>
+                <p><Link to="/contact-formik">Formik Contact Form</Link></p>
                 <div className="lower-header-search-box">
                     <input type="text" placeholder="Search website...." ></input>
                     <i className="ri-search-line ri-2x"></i>

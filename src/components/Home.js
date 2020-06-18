@@ -8,7 +8,7 @@ function Home() {
             <HomePageCarousel /> 
         </div>
         <div className="homepage-welcome-message">
-            <p className="big-heavy-font">Welcome to the website of Jenny Wilson, fully accredited Educational Psychologist.</p>
+            <p className="general-heading-font">Welcome to the website of Jenny Wilson, fully accredited Educational Psychologist.</p>
             <p>Jenny Wilson is a Specialist Consultant Child Educational Psychologist. </p>
             <p>Jenny Wilson is an acknowledged specialist in Pathological Demand Avoidance Syndrome.</p>
             <p>Jenny Wilson is an expert in this other thing also.</p>

@@ -2,7 +2,7 @@ import React from 'react';
 import {useFormik, Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 
-const Contact = () => {
+const ContactFormik = () => {
     // Pass the useFormik() hook initial form values and a submit function that will
     // be called when the form is submitted
     
@@ -31,4 +31,4 @@ const Contact = () => {
 
   };
 
-export default Contact
+export default ContactFormik

@@ -26,15 +26,16 @@ a:link, a:visited {
   color:inherit;
 }
 
-.medium-heavy-font {
+.carousel-headings {
   font-weight : 500;
   font-size : 1.4em;
   height : 0.7em;
 }
 
-.big-heavy-font {
+.general-heading-font {
   font-weight : 400;
   font-size : 1.6em;
+  color : var(--dark-blue);
 }
 
 /* exclude icons from font-weight 900 applied to body */
@@ -93,6 +94,7 @@ header {
 }
 
 .lower-header-search-box > input {
+  position : relative;
   border-radius : 0.2em;
   border : none;
   color : #aaa;
@@ -101,8 +103,10 @@ header {
 }
 
 .ri-search-line {
-  color : var(--mid-grey);
+  font-weight : 400;
+  color : var(--dark-blue);
   position : absolute; 
+  right : 0;
 }
 
 /* ====================================================================== */
