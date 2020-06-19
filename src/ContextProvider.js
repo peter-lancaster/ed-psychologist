@@ -8,7 +8,16 @@ function ContextProvider({children}) {
 
     //setWindowWidth(window.innerWidth)
 
+    
+
+    window.addEventListener("resize", whichNavigation)
+
     function whichNavigation() {
+
+        //console.log("in whichNavigation")
+
+        setWindowWidth(window.innerWidth)
+
         if (windowWidth < 1200) {
             setIsBurgerNav(true)
           } else {
@@ -16,7 +25,7 @@ function ContextProvider({children}) {
           }
     }
 
-    useEffect(() => whichNavigation(), [windowWidth])
+    //useEffect(() => whichNavigation(), [])
 
     return (
         <Context.Provider value={{isBurgerNav}}>
