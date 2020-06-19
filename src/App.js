@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import './App.css';
 import Header from "./Header"
 import Footer from "./Footer"
@@ -8,11 +8,30 @@ import About from "./components/About"
 import Services from "./components/Services"
 import ContactFormik from "./components/ContactFormik"
 import ContactHomeGrown from "./components/ContactHomeGrown"
+import MobileHeader from "./MobileHeader"
+import {Context} from "./ContextProvider"
 
 function App() {
+
+  //console.log(window.innerWidth)
+
+  const {isBurgerNav} = useContext(Context)
+
+
+  console.log("pete isBurgerNav is:")
+  console.log(isBurgerNav)
+
+  let whichHeader = ""
+
+  if (isBurgerNav) {
+    whichHeader = <MobileHeader />
+  } else {
+    whichHeader = <Header />
+  }
+
   return (
     <>
-    <Header />
+    {whichHeader}
       <main>
         <Switch>
           <Route exact path ="/"><Home/></Route>
