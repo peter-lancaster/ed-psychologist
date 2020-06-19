@@ -53,7 +53,6 @@ a:link, a:visited {
 
 header {
   position : relative;
-
   display : flex;
   flex-direction : column;
   justify-content : space-evenly;
@@ -74,10 +73,16 @@ header {
   font-size : 1.0em;
 }
 
+.upper-header-bar > h1{
+  margin-right : auto;
+  font-family: 'Sriracha', cursive;
+  font-size : 1.4em;
+  margin-left : 25px;
+
+}
+
 .lower-header-bar {
   height : 110px;
-
-
   color : var(--white);
   display : flex;
   align-items : center;
@@ -254,14 +259,14 @@ footer > p {
   width: 36px;
   height: 30px;
   left: 36px;
-  top: 36px;
+  top: 56px;
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: #3399ff;
-}
-
+  background: var(--dark-blue);
+  border : black solid 1px; }
+  
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
   background: #a90000;

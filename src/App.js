@@ -31,7 +31,8 @@ function App() {
 
   return (
     <>
-    {whichHeader}
+      
+     {whichHeader}
       <main>
         <Switch>
           <Route exact path ="/"><Home/></Route>

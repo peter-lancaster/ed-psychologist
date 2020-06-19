@@ -10,14 +10,22 @@ function MobileHeader(event) {
     }
 
     return (
-        <Menu>
+        <>
+        <header>
+        <div className="upper-header-bar">
             <h1><Link to="/">Jenny Wilson</Link></h1>
+            <i className="ri-mail-line ri-2x"></i> <span>jennywilson@emailprovider.com</span>
+            <i className="ri-phone-line ri-2x"></i> <span>0207 811 8055</span>
+        </div>
+        </header>
+        <Menu>
             <p><Link to="/">Home</Link></p>
             <p><Link to="/about">About</Link></p>
             <p><Link to="/services">Services</Link></p>
             <p><Link to="/contact-homegrown">Home Grown Contact Form</Link></p>
             <p><Link to="/contact-formik">Formik Contact Form</Link></p>
         </Menu>
+        </>
 
     )
 }
