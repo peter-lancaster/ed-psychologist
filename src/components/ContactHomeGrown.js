@@ -1,5 +1,8 @@
 import React from "react" 
 
+// This approach uses basic html5 validation described in here 
+// https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation
+
 function ContactHomeGrown() {
 
     return(
@@ -36,7 +39,7 @@ function ContactHomeGrown() {
                 
                 <label for="email">Your email address </label>
                     <input 
-                    type="text" 
+                    type="email" 
                     name="email" 
                     id="email"
                     placeholder="Email address" 

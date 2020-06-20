@@ -1,9 +1,14 @@
-import React from "react" 
+import React, {useContext} from "react" 
 import {Link} from "react-router-dom"
+import {Context} from "./ContextProvider"
 import 'remixicon/fonts/remixicon.css'
 
 
 function Header() {
+
+    const {isBurgerNav} = useContext(Context)
+
+
     return (
         <header>
             <div className="upper-header-bar">

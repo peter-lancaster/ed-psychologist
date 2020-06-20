@@ -13,13 +13,7 @@ import {Context} from "./ContextProvider"
 
 function App() {
 
-  //console.log(window.innerWidth)
-
   const {isBurgerNav} = useContext(Context)
-
-
-  console.log("pete isBurgerNav is:")
-  console.log(isBurgerNav)
 
   let whichHeader = ""
 
