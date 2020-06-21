@@ -14,11 +14,27 @@ font-family: 'Sriracha', cursive; */
   --white: white;
   --mid-grey : #827f7e;
 
-  --carousel-view-height : 400px;
-  --carousel-view-width : 600px;
+  --carousel-view-height : 300px;
+  --carousel-view-width : 350px;
 
 
 }
+
+/* Media query for desktop display */
+@media (min-width : 820px) {
+
+  :root {
+    --carousel-view-height : 400px;
+    --carousel-view-width : 600px;
+    }
+
+
+  .homepage-carousel {
+    margin : 30px 30px 30px 30px;
+  }
+
+}
+
 
 
 a {
@@ -156,7 +172,7 @@ main {
 }
 
 .homepage-carousel {
-  margin : 30px;
+  margin : 60px 30px 30px 30px;
   border : black 1px solid;
   height : var(--carousel-view-height);
   width : var(--carousel-view-width);
@@ -290,8 +306,8 @@ footer > p {
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
-  height: 34px;
-  width: 34px;
+  height: 44px;
+  width: 44px;
 }
 
 /* Color/shape of close button cross */
@@ -306,6 +322,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-menu-wrap {
   position: fixed;
   height: 100%;
+  overflow : hidden;
 }
 
 /* General sidebar styles */
@@ -313,6 +330,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background: var(--dark-blue);
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
+  overflow : hidden;
 }
 
 /* Morph shape necessary with bubble or elastic */
@@ -322,7 +340,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* Wrapper for item list */
 .bm-item-list {
-  color: #b8b7ad;
+  color: var(--white);
   padding: 0.8em;
 }
 
@@ -334,4 +352,5 @@ Note: Beware of modifying this element as it can break the animations - you shou
 /* Styling of overlay */
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
+  overflow : hidden;
 }
