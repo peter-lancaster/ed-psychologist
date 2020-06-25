@@ -5,10 +5,6 @@ import "remixicon/fonts/remixicon.css"
 
 function MobileHeader(event) {
 
-    // function showSettings(event) {
-    //     event.preventDefault()
-    // }
-
     return (
         <>
         <header>
@@ -17,7 +13,11 @@ function MobileHeader(event) {
             <i className="ri-phone-line ri-2x"></i> <span>0207 811 8055</span>
         </div>
         <div className="mobile-lower-header-bar">
-                <h1><Link to="/">Jenny Wilson, educational psychologist</Link></h1>
+                <h1><Link to="/">Jenny Wilson</Link></h1>
+                <div className="lower-header-search-box">
+                    <input type="text" placeholder="Search website...." ></input>
+                    <i className="ri-search-line ri-2x"></i>
+                </div>
         </div>
         </header>
         <Menu>

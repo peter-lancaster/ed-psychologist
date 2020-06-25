@@ -2,7 +2,10 @@
 font-family: 'Ma Shan Zheng', cursive;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
-font-family: 'Sriracha', cursive; */
+font-family: 'Sriracha', cursive; 
+font-family: 'Kristi', cursive;
+font-family: 'Sacramento', cursive;
+*/
 
 :root {
   --black: #150605;
@@ -28,11 +31,9 @@ font-family: 'Sriracha', cursive; */
     --carousel-view-width : 600px;
     }
 
-
   .homepage-carousel {
     margin : 30px 30px 30px 30px;
   }
-
 }
 
 
@@ -56,8 +57,6 @@ a:link, a:visited {
   font-size : 1.6em;
   color : var(--dark-blue);
 }
-
-
 
 /* exclude icons from font-weight 900 applied to body */
 [class^="ri-"] {
@@ -90,44 +89,37 @@ header {
   font-size : 1.0em;
 }
 
-.upper-header-bar > h1{
-  margin-right : auto;
-  font-family: 'Sriracha', cursive;
-  font-size : 1.4em;
-  margin-left : 25px;
-}
-
-
 .lower-header-bar {
   height : 110px;
   color : var(--white);
   display : flex;
   align-items : center;
-  text-align : center;
+
   justify-content : space-evenly;
   background : #3399ff;
   text-decoration : none;
+
+  padding: 0 160px 0 160px;
 }
 
-
 .mobile-lower-header-bar {
-  height : 40px;
+  height : 100px;
   color : var(--white);
   display : flex;
   align-items : center;
-  justify-content : center;
+  justify-content: space-between;
+  padding : 0px 100px 0px 50px;
   background : #3399ff;
-  text-decoration : none;
 }
 
 .mobile-lower-header-bar > h1 {
-  font-size: 1.3em;
+  font-family: 'Kristi', cursive;
+  font-size: 3.6em;
 }
 
-
 .lower-header-bar > h1 {
-  font-family: 'Sriracha', cursive;
-  font-size: 2.6em;
+  font-family: 'Kristi', cursive;
+  font-size: 3.6em;
 }
 
 .lower-header-bar > p {
@@ -291,13 +283,13 @@ footer > p {
   position: fixed;
   width: 36px;
   height: 30px;
-  left: 36px;
-  top: 96px;
+  right: 36px;
+  top: 76px;
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-  background: var(--dark-blue); }
+  background: var(--white); }
   
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
