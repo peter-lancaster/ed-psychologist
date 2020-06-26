@@ -8,21 +8,19 @@ function MobileHeader(event) {
 
     return (
         <>
-        <header>
-        <div className="mobile-upper-header-bar">
-            <i className="ri-mail-line ri-2x"></i> <span>jennywilson@emailprovider.com</span>
-            <i className="ri-phone-line ri-2x"></i> <span>0207 811 8055</span>
-        </div>
-        <div className="mobile-lower-header-bar">
-                <h1><Link to="/">Jenny Wilson</Link></h1>
-                <div className="lower-header-search-box">
-                    <input type="text" placeholder="Search website...." ></input>
-                    <i className="ri-search-line ri-2x"></i>
-                </div>
-        </div>
-        </header>
-
-
+        <header className="mobile-header">
+            <div className="mobile-upper-header-bar">
+                <i className="ri-mail-line ri-2x"></i> <span>jennywilson@emailprovider.com</span>
+                <i className="ri-phone-line ri-2x"></i> <span>0207 811 8055</span>
+            </div>
+            <div className="mobile-lower-header-bar">
+                    <h1><Link to="/">Jenny Wilson</Link></h1>
+                    <div className="lower-header-search-box">
+                        <input type="text" placeholder="Search website...." ></input>
+                        <i className="ri-search-line ri-2x"></i>
+                    </div>
+            </div>
+         </header>
 
 
 

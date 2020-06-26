@@ -133,9 +133,15 @@ header {
   right : 0;
 }
 
+.mobile-header {
+  position : sticky;
+  width : 100%;
+  top : 0;
+  z-index : 1;
+}
 
 .mobile-upper-header-bar {
-  /* position : absolute; */
+  
   display : flex;
   justify-content : flex-end;
   align-items : center;
@@ -144,7 +150,7 @@ header {
 }
 
 .mobile-upper-header-bar > span{
-  /* position : absolute; */
+  
   padding-right: 10px;
   padding-left : 5px;
   font-size : 1.0em;
@@ -164,6 +170,7 @@ header {
 .mobile-lower-header-bar > h1 {
   font-family: 'Kristi', cursive;
   font-size: 3.0em;
+  /* margin-top : -1px; */
 
 }
 
@@ -306,7 +313,7 @@ footer > p {
   width: 36px;
   height: 30px;
   right: 36px;
-  top: 76px;
+  top: 60px;
 }
 
 /* Color/shape of burger icon bars */
