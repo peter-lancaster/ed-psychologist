@@ -13,6 +13,7 @@ font-family: 'Sacramento', cursive;
   --pink: #F47B6E;
   --light-blue: #EFFBFE;
   --dark-blue: #003399;
+  --mid-blue: #3399ff;
   --blue: #ACE6EC;
   --white: white;
   --mid-grey : #827f7e;
@@ -69,6 +70,7 @@ a:link, a:visited {
 
 header {
   position : relative;
+
   display : flex;
   flex-direction : column;
   justify-content : space-evenly;
@@ -96,25 +98,10 @@ header {
   align-items : center;
 
   justify-content : space-evenly;
-  background : #3399ff;
+  background :var(--mid-blue);
   text-decoration : none;
 
   padding: 0 160px 0 160px;
-}
-
-.mobile-lower-header-bar {
-  height : 100px;
-  color : var(--white);
-  display : flex;
-  align-items : center;
-  justify-content: space-between;
-  padding : 0px 100px 0px 50px;
-  background : #3399ff;
-}
-
-.mobile-lower-header-bar > h1 {
-  font-family: 'Kristi', cursive;
-  font-size: 3.6em;
 }
 
 .lower-header-bar > h1 {
@@ -145,6 +132,41 @@ header {
   position : absolute; 
   right : 0;
 }
+
+
+.mobile-upper-header-bar {
+  /* position : absolute; */
+  display : flex;
+  justify-content : flex-end;
+  align-items : center;
+  height : 40px;
+  background : var(--dark-blue);
+}
+
+.mobile-upper-header-bar > span{
+  /* position : absolute; */
+  padding-right: 10px;
+  padding-left : 5px;
+  font-size : 1.0em;
+}
+
+.mobile-lower-header-bar {
+  height : 70px;
+  color : var(--white);
+  display : flex;
+  align-items : center;
+  justify-content: space-between;
+  padding : 0px 100px 0px 50px;
+  margin : 0px 0px 0px 0px;
+  background : #3399ff;
+}
+
+.mobile-lower-header-bar > h1 {
+  font-family: 'Kristi', cursive;
+  font-size: 3.0em;
+
+}
+
 
 /* ====================================================================== */
 
@@ -304,7 +326,7 @@ footer > p {
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: #bdc3c7;
+  background: black;
 }
 
 /*
@@ -319,7 +341,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-  background: var(--dark-blue);
+  background :var(--mid-blue);
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
   overflow : hidden;
@@ -346,3 +368,17 @@ Note: Beware of modifying this element as it can break the animations - you shou
   background: rgba(0, 0, 0, 0.3);
   overflow : hidden;
 }
+
+/* ====================================================================== */
+/* CAROUSEL RELATED CSS */
+/* ====================================================================== */
+
+
+.slick-prev:before,
+.slick-next:before {
+  color:var(--mid-blue)!important;
+}
+
+
+
+

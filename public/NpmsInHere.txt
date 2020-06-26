@@ -7,6 +7,8 @@ npm install remixicon --save
 For carousel
 npm i react-slick
 npm install slick-carousel
+useful blog about customisation of react-slick-carousel
+https://www.newline.co/@dmitryrogozhny/how-to-show-carousel-in-react-applications-with-react-slick--07445c23
 
 
 For formik contact form

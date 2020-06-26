@@ -3,6 +3,7 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import CarouselItem from "./CarouselItem"
+import LeftArrow from "./LeftArrow"
 
 function HomePageCarousel() {
     
@@ -18,8 +19,47 @@ const settings = {
     autoplay: true,
     speed: 1000,
     autoplaySpeed: 4000,
-    cssEase: "linear"
+    cssEase: "linear",
+    prevArrow: <PrevArrow />,
+    nextArrow: <NextArrow />
   };
+
+   function NextArrow(props) {
+    const { className, style, onClick } = props;
+
+    //console.log(className) //slick-arrow slick-next
+    //console.log(style) // {display : "block"}
+    //console.log(onClick) // ƒ clickHandler(options, e) {
+                          //   if (e) {
+                          //     e.preventDefault();
+                          //   }
+
+                          //   this.props.clickHandler(options, e);
+                          // }
+
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block"}}
+        onClick={onClick}
+      />
+    );
+  }
+  
+  function PrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, display: "block"}}
+        onClick={onClick}
+      >
+         <i className="ri-arrow-left-circle-fill"></i>
+      </div>
+    );
+  }
+
+
 
   return (
     <div className="homepage-carousel">
@@ -43,21 +83,6 @@ const settings = {
     </div>
   );
 
-    // return (
-    //     <div>
-    //     <Slider {...settings}>
-    //       <div >
-    //         <img className="slider-image" src="https://www.todaysparent.com/wp-content/uploads/2014/03/TP04_Steps_LittleKid-300x300.jpg" />
-    //       </div>
-    //       <div>
-    //         <img className="slider-image" src="http://www.markmerrill.com/wp-content/uploads/2018/10/10-18-18-angry-child.jpg"/>
-    //       </div>
-    //       <div>
-    //         <img  className="slider-image"src="https://www.gannett-cdn.com/media/2018/05/14/USATODAY/usatsports/wp-USAT-allthemoms-front1-20750-temper24.png?width=1080&quality=50"/>
-    //       </div>
-    //     </Slider>
-    //   </div>
-    // )
 }
 
 

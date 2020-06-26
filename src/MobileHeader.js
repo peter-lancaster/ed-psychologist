@@ -5,10 +5,11 @@ import "remixicon/fonts/remixicon.css"
 
 function MobileHeader(event) {
 
+
     return (
         <>
         <header>
-        <div className="upper-header-bar">
+        <div className="mobile-upper-header-bar">
             <i className="ri-mail-line ri-2x"></i> <span>jennywilson@emailprovider.com</span>
             <i className="ri-phone-line ri-2x"></i> <span>0207 811 8055</span>
         </div>
@@ -20,12 +21,16 @@ function MobileHeader(event) {
                 </div>
         </div>
         </header>
-        <Menu>
+
+
+
+
+
+        <Menu > 
             <p><Link to="/">Home</Link></p>
             <p><Link to="/about">About</Link></p>
             <p><Link to="/services">Services</Link></p>
-            <p><Link to="/contact-homegrown">Home Grown Contact Form</Link></p>
-            <p><Link to="/contact-formik">Formik Contact Form</Link></p>
+            <p><Link to="/contact-formik">Contact</Link></p>
         </Menu>
         </>
 
