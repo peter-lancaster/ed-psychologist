@@ -19,7 +19,7 @@ font-family: 'Sacramento', cursive;
   --mid-grey : #827f7e;
 
   --carousel-view-height : 250px;
-  --carousel-view-width : 325px;
+  --carousel-view-width : 250px;
 
 }
 
@@ -94,24 +94,26 @@ header {
   display : flex;
   align-items : center;
 
-  justify-content : space-evenly;
+  justify-content : center;
   background :var(--mid-blue);
   text-decoration : none;
 
-  padding: 0 160px 0 160px;
 }
 
 .lower-header-bar > h1 {
   font-family: 'Kristi', cursive;
   font-size: 3.6em;
+  margin-right : 0px 30px 0px 30px;
 }
 
 .lower-header-bar > p {
   font-size: 1.1em;
+  padding : 40px;
 }
 
 .lower-header-search-box {
   position : relative;
+  margin : 0px 30px 0px 30px;
 }
 
 .lower-header-search-box > input {
@@ -123,19 +125,19 @@ header {
   height : 30px;
 }
 
-.ri-search-line {
+.lower-header-search-box .ri-search-line {
   font-weight : 400;
   color : var(--dark-blue);
   position : absolute; 
   right : 0;
 }
 
-.mobile-header {
+/* .mobile-header {
   position : sticky;
   width : 100%;
   top : 0;
   z-index : 1;
-}
+} */
 
 .mobile-upper-header-bar {
   
@@ -159,7 +161,7 @@ header {
   display : flex;
   align-items : center;
   justify-content: space-between;
-  padding : 0px 30px 0px 120px;
+  padding : 0px 30px 0px 100px;
   margin : 0px 0px 0px 0px;
   background : #3399ff;
 }
