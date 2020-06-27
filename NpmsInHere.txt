@@ -1,0 +1,24 @@
+For react-router
+npm i react-router-dom
+
+For icons
+npm install remixicon --save
+
+For carousel
+npm i react-slick
+npm install slick-carousel
+useful blog about customisation of react-slick-carousel
+https://www.newline.co/@dmitryrogozhny/how-to-show-carousel-in-react-applications-with-react-slick--07445c23
+
+
+For formik contact form
+https://jaredpalmer.com/formik/docs/tutorial
+npm install formik --save
+npm install yup --save
+npm i @emotion/styled
+npm i @emotion/core
+
+For burger nav on mobile sized site
+npm i react-burger-menu
+https://www.npmjs.com/package/react-burger-menu
+
