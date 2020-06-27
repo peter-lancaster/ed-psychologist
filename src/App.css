@@ -18,9 +18,8 @@ font-family: 'Sacramento', cursive;
   --white: white;
   --mid-grey : #827f7e;
 
-  --carousel-view-height : 300px;
-  --carousel-view-width : 350px;
-
+  --carousel-view-height : 250px;
+  --carousel-view-width : 325px;
 
 }
 
@@ -36,8 +35,6 @@ font-family: 'Sacramento', cursive;
     margin : 30px 30px 30px 30px;
   }
 }
-
-
 
 a {
   text-decoration: none;
@@ -162,7 +159,7 @@ header {
   display : flex;
   align-items : center;
   justify-content: space-between;
-  padding : 0px 100px 0px 50px;
+  padding : 0px 30px 0px 120px;
   margin : 0px 0px 0px 0px;
   background : #3399ff;
 }
@@ -170,7 +167,7 @@ header {
 .mobile-lower-header-bar > h1 {
   font-family: 'Kristi', cursive;
   font-size: 3.0em;
-  /* margin-top : -1px; */
+  margin-top : 25px;
 
 }
 
@@ -312,7 +309,7 @@ footer > p {
   position: fixed;
   width: 36px;
   height: 30px;
-  right: 36px;
+  left: 36px;
   top: 60px;
 }
 
@@ -326,14 +323,31 @@ footer > p {
 }
 
 /* Position and sizing of clickable cross button */
+
 .bm-cross-button {
-  height: 44px;
-  width: 44px;
+  right: 48px !important;
+  top: 23px !important;
+  padding : 8px ;
+
+  border : 1px white solid;
+  border-radius : 3px;
 }
+
+.bm-cross-button > span {
+
+  top : 1px !important;
+  left : 18px !important;
+
+} 
 
 /* Color/shape of close button cross */
 .bm-cross {
-  background: black;
+  background: white;
+  height : 36px !important;
+  width : 5px !important;
+  
+ 
+
 }
 
 /*
