@@ -34,6 +34,28 @@ font-family: 'Sacramento', cursive;
   .homepage-carousel {
     margin : 30px 30px 30px 30px;
   }
+
+  .mobile-upper-header-bar > span{
+    font-size : 1.0em;
+  }
+
+
+  .carousel-text-box {
+    /* https://www.tutorialrepublic.com/faq/how-to-position-text-over-an-image-using-css.php */
+    position: absolute;
+    z-index: 999;
+    /* margin: 0 auto; */
+    margin : 0 3% 0 3%;
+    left: 0;
+    right: 0;
+    top: 60%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    /* width: 90%; Set the width of the positioned div */
+     
+
+  }
+
+
 }
 
 a {
@@ -103,12 +125,13 @@ header {
 .lower-header-bar > h1 {
   font-family: 'Kristi', cursive;
   font-size: 3.6em;
-  margin-right : 0px 30px 0px 30px;
+  padding : 0px 30px 0px 30px;
 }
 
 .lower-header-bar > p {
   font-size: 1.1em;
   padding : 40px;
+
 }
 
 .lower-header-search-box {
@@ -152,7 +175,7 @@ header {
   
   padding-right: 10px;
   padding-left : 5px;
-  font-size : 1.0em;
+  font-size : 0.9em;
 }
 
 .mobile-lower-header-bar {
@@ -160,8 +183,7 @@ header {
   color : var(--white);
   display : flex;
   align-items : center;
-  justify-content: space-between;
-  padding : 0px 30px 0px 100px;
+  justify-content: center;
   margin : 0px 0px 0px 0px;
   background : #3399ff;
 }
@@ -170,8 +192,33 @@ header {
   font-family: 'Kristi', cursive;
   font-size: 3.0em;
   margin-top : 25px;
+  
 
 }
+
+.mobile-lower-header-search-box {
+  position : relative;
+}
+
+.mobile-lower-header-search-box > input {
+
+  
+  position : relative;
+  border-radius : 0.2em;
+  border : none;
+  color : #aaa;
+  width : 220px;
+  height : 30px;
+}
+
+.mobile-lower-header-search-box .ri-search-line {
+  font-weight : 400;
+  color : var(--dark-blue);
+  position : absolute; 
+  right : 0;
+  top : 0;
+}
+
 
 
 /* ====================================================================== */

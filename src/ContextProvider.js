@@ -14,7 +14,7 @@ function ContextProvider({children}) {
 
         setWindowWidth(window.innerWidth)
 
-        if (windowWidth < 1000) {
+        if (windowWidth < 1110) {
             setIsBurgerNav(true)
           } else {
             setIsBurgerNav(false)
