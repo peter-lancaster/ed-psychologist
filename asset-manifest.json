@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ed-psychologist/static/css/main.f9718c59.chunk.css",
-    "main.js": "/ed-psychologist/static/js/main.77ded4ee.chunk.js",
-    "main.js.map": "/ed-psychologist/static/js/main.77ded4ee.chunk.js.map",
+    "main.css": "/ed-psychologist/static/css/main.0aecfcf3.chunk.css",
+    "main.js": "/ed-psychologist/static/js/main.ce597fb6.chunk.js",
+    "main.js.map": "/ed-psychologist/static/js/main.ce597fb6.chunk.js.map",
     "runtime-main.js": "/ed-psychologist/static/js/runtime-main.c8ac3576.js",
     "runtime-main.js.map": "/ed-psychologist/static/js/runtime-main.c8ac3576.js.map",
     "static/css/2.00b5ec64.chunk.css": "/ed-psychologist/static/css/2.00b5ec64.chunk.css",
     "static/js/2.a577d916.chunk.js": "/ed-psychologist/static/js/2.a577d916.chunk.js",
     "static/js/2.a577d916.chunk.js.map": "/ed-psychologist/static/js/2.a577d916.chunk.js.map",
     "index.html": "/ed-psychologist/index.html",
-    "precache-manifest.8645ae68e71bddf95ee41cdcc333ec90.js": "/ed-psychologist/precache-manifest.8645ae68e71bddf95ee41cdcc333ec90.js",
+    "precache-manifest.bdd456f28db16c4d2996658ae419d9df.js": "/ed-psychologist/precache-manifest.bdd456f28db16c4d2996658ae419d9df.js",
     "service-worker.js": "/ed-psychologist/service-worker.js",
     "static/css/2.00b5ec64.chunk.css.map": "/ed-psychologist/static/css/2.00b5ec64.chunk.css.map",
-    "static/css/main.f9718c59.chunk.css.map": "/ed-psychologist/static/css/main.f9718c59.chunk.css.map",
+    "static/css/main.0aecfcf3.chunk.css.map": "/ed-psychologist/static/css/main.0aecfcf3.chunk.css.map",
     "static/js/2.a577d916.chunk.js.LICENSE.txt": "/ed-psychologist/static/js/2.a577d916.chunk.js.LICENSE.txt",
     "static/media/remixicon.css": "/ed-psychologist/static/media/remixicon.9915fef9.woff2",
     "static/media/slick-theme.css": "/ed-psychologist/static/media/slick.f97e3bbf.svg"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.c8ac3576.js",
     "static/css/2.00b5ec64.chunk.css",
     "static/js/2.a577d916.chunk.js",
-    "static/css/main.f9718c59.chunk.css",
-    "static/js/main.77ded4ee.chunk.js"
+    "static/css/main.0aecfcf3.chunk.css",
+    "static/js/main.ce597fb6.chunk.js"
   ]
 }
