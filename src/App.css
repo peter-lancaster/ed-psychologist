@@ -244,13 +244,13 @@ main {
   height : var(--carousel-total-height);
   width : var(--carousel-total-width);
   z-index : 1;
+  
 }
 
 .homepage-carousel-item {
   display : flex;
   flex-direction : column;
-   
-}
+   }
 
 .slider-image {  
   height : var(--carousel-image-height);
