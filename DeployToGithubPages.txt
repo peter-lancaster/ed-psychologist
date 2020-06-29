@@ -1,6 +1,13 @@
 PETE - using the blog post below as the basis for my actions, here is how I got the deployment
 of this already exising React App (which already had a github repository) to GitHub pages to work.
 
+These blog posts are also interesting / useful.
+
+https://www.freecodecamp.org/news/surge-vs-github-pages-deploying-a-create-react-app-project-c0ecbf317089/
+https://itnext.io/so-you-want-to-host-your-single-age-react-app-on-github-pages-a826ab01e48
+
+
+
 ###################################################################################
 1- We need to install GitHub Pages package as a dev-dependency.
 

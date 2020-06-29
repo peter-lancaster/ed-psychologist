@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-ed-psychologist/static/css/main.30566093.chunk.css",
-    "main.js": "/react-ed-psychologist/static/js/main.8c203300.chunk.js",
-    "main.js.map": "/react-ed-psychologist/static/js/main.8c203300.chunk.js.map",
+    "main.css": "/react-ed-psychologist/static/css/main.ccc58caa.chunk.css",
+    "main.js": "/react-ed-psychologist/static/js/main.baea981e.chunk.js",
+    "main.js.map": "/react-ed-psychologist/static/js/main.baea981e.chunk.js.map",
     "runtime-main.js": "/react-ed-psychologist/static/js/runtime-main.9d0eef37.js",
     "runtime-main.js.map": "/react-ed-psychologist/static/js/runtime-main.9d0eef37.js.map",
     "static/css/2.70b3949b.chunk.css": "/react-ed-psychologist/static/css/2.70b3949b.chunk.css",
     "static/js/2.a577d916.chunk.js": "/react-ed-psychologist/static/js/2.a577d916.chunk.js",
     "static/js/2.a577d916.chunk.js.map": "/react-ed-psychologist/static/js/2.a577d916.chunk.js.map",
     "index.html": "/react-ed-psychologist/index.html",
-    "precache-manifest.06071948c33a8ef1bc70d07025986be4.js": "/react-ed-psychologist/precache-manifest.06071948c33a8ef1bc70d07025986be4.js",
+    "precache-manifest.b19aa1119e710ed55026d4365ec0ac85.js": "/react-ed-psychologist/precache-manifest.b19aa1119e710ed55026d4365ec0ac85.js",
     "service-worker.js": "/react-ed-psychologist/service-worker.js",
     "static/css/2.70b3949b.chunk.css.map": "/react-ed-psychologist/static/css/2.70b3949b.chunk.css.map",
-    "static/css/main.30566093.chunk.css.map": "/react-ed-psychologist/static/css/main.30566093.chunk.css.map",
+    "static/css/main.ccc58caa.chunk.css.map": "/react-ed-psychologist/static/css/main.ccc58caa.chunk.css.map",
     "static/js/2.a577d916.chunk.js.LICENSE.txt": "/react-ed-psychologist/static/js/2.a577d916.chunk.js.LICENSE.txt",
     "static/media/remixicon.css": "/react-ed-psychologist/static/media/remixicon.9915fef9.woff2",
     "static/media/slick-theme.css": "/react-ed-psychologist/static/media/slick.f97e3bbf.svg"
@@ -21,7 +21,7 @@
     "static/js/runtime-main.9d0eef37.js",
     "static/css/2.70b3949b.chunk.css",
     "static/js/2.a577d916.chunk.js",
-    "static/css/main.30566093.chunk.css",
-    "static/js/main.8c203300.chunk.js"
+    "static/css/main.ccc58caa.chunk.css",
+    "static/js/main.baea981e.chunk.js"
   ]
 }
