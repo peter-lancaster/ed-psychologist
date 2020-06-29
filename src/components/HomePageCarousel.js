@@ -68,7 +68,7 @@ const settings = {
           anchorLink={"/about"}
           imageUrl={"https://www.parentspartner.com/wp-content/uploads/2011/06/angry-child-boy.jpg"} 
           textTitle={"Educational psychologist"}
-          textPara={"Jenny Wilson is a Consultant Educational Psychologist who provides independent assessments of children with special educational needs. More text here to see how it looks"}
+          textPara={"Jenny Wilson is a Consultant Educational Psychologist who provides independent assessments of children with special educational needs."}
           />
           <CarouselItem 
           anchorLink={"/services"}

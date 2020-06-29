@@ -18,13 +18,13 @@ font-family: 'Sacramento', cursive;
   --white: white;
   --mid-grey : #827f7e;
 
-  --carousel-total-height : 450px;
+  --carousel-total-height : 550px;
   --carousel-total-width : 250px;
 
   --carousel-image-height : 250px;
   --carousel-image-width : 250px;
 
-  --carousel-text-height : 200px;
+  --carousel-text-height : 300px;
   --carousel-text-width : 250px;
 
 }
@@ -37,10 +37,10 @@ font-family: 'Sacramento', cursive;
     --carousel-total-height : 450px;
     --carousel-total-width : 650px;
   
-    --carousel-image-height : 250px;
+    --carousel-image-height : 325px;
     --carousel-image-width : 650px;
   
-    --carousel-text-height : 200px;
+    --carousel-text-height : 125px;
     --carousel-text-width : 650px;
     }
 
@@ -56,6 +56,10 @@ font-family: 'Sacramento', cursive;
 
 a:link, a:visited {
   color:inherit;
+}
+
+a:hover {
+  color: black
 }
 
 .carousel-headings {
@@ -103,13 +107,15 @@ header {
 }
 
 .lower-header-bar {
+
+  
   height : 110px;
   color : var(--white);
   display : flex;
   align-items : center;
 
   justify-content : center;
-  background :var(--mid-blue);
+  background : linear-gradient(var(--mid-blue),var(--dark-blue));
   text-decoration : none;
 
 }
@@ -181,7 +187,7 @@ header {
   align-items : center;
   justify-content: center;
   margin : 0px 0px 0px 0px;
-  background : #3399ff;
+  background : linear-gradient(var(--mid-blue),var(--dark-blue));
 }
 
 .mobile-lower-header-bar > h1 {
@@ -232,7 +238,6 @@ main {
 /* ====================================================================== */
 
 .homepage-main {
-  
   display : flex;
   flex-direction : column;
   align-items : center;
@@ -244,7 +249,7 @@ main {
   height : var(--carousel-total-height);
   width : var(--carousel-total-width);
   z-index : 1;
-  
+
 }
 
 .homepage-carousel-item {
@@ -268,7 +273,9 @@ main {
   text-align: center;
 
   color : var(--white);
-  background-color : rgba(0,51,153,0.65);
+  background : linear-gradient(45deg, var(--mid-blue),var(--dark-blue));
+
+  
   /* used rgba for background color so that white text is not affected 
   by opacity https://stackoverflow.com/questions/33512070/center-text-in-box-with-opacity-and-make-text-solid */
 
@@ -277,6 +284,10 @@ main {
 .carousel-text-box > p {
   padding : 0px 30px 0px 30px;
 }
+
+
+
+
 .homepage-welcome-message {
   margin : 0px 50px 15px 50px;
   display : flex;
@@ -388,7 +399,7 @@ footer > p {
   
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: #a90000;
+  background: black;
 }
 
 /* Position and sizing of clickable cross button */
@@ -415,7 +426,6 @@ footer > p {
   height : 36px !important;
   width : 5px !important;
   
- 
 
 }
 
@@ -431,7 +441,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 /* General sidebar styles */
 .bm-menu {
-  background :var(--mid-blue);
+  background : linear-gradient(var(--mid-blue),var(--dark-blue));
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
   overflow : hidden;
