@@ -249,8 +249,7 @@ main {
 .homepage-carousel-item {
   display : flex;
   flex-direction : column;
-  
-  
+   
 }
 
 .slider-image {  
