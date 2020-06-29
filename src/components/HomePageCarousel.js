@@ -65,16 +65,19 @@ const settings = {
     <div className="homepage-carousel">
         <Slider {...settings}>
           <CarouselItem 
+          anchorLink={"/about"}
           imageUrl={"https://www.parentspartner.com/wp-content/uploads/2011/06/angry-child-boy.jpg"} 
           textTitle={"Educational psychologist"}
           textPara={"Jenny Wilson is a Consultant Educational Psychologist who provides independent assessments of children with special educational needs. More text here to see how it looks"}
           />
           <CarouselItem 
+          anchorLink={"/services"}
           imageUrl={"https://i1.wp.com/lindastade.com/wp-content/uploads/2018/06/shutterstock_141082792-2-e1542560322233.jpg?resize=1024%2C640&ssl=1"} 
           textTitle={"Autism and ADHD strategies"}
           textPara={"Some text here about the treatment of autism"}
           />
           <CarouselItem 
+          anchorLink={"/services"}
           imageUrl={"https://www.gannett-cdn.com/media/2018/05/14/USATODAY/usatsports/wp-USAT-allthemoms-front1-20750-temper24.png?width=1080&quality=50"} 
           textTitle={"Innovative work in the field of Child Psychology"}
           textPara={"Some text here about work in the field of child psychology"}
