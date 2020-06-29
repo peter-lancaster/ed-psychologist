@@ -62,7 +62,7 @@ const settings = {
 
 
   return (
-    <div className="homepage-carousel">
+    <div>
         <Slider {...settings}>
           <CarouselItem 
           anchorLink={"/about"}

@@ -4,7 +4,7 @@ import HomePageCarousel from "./HomePageCarousel"
 function Home() {
     return (
     <div className="homepage-main">
-        <div >
+        <div className="homepage-carousel">
             <HomePageCarousel /> 
         </div>
         <div className="homepage-welcome-message">

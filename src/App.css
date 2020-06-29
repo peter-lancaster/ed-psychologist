@@ -18,8 +18,14 @@ font-family: 'Sacramento', cursive;
   --white: white;
   --mid-grey : #827f7e;
 
-  --carousel-view-height : 250px;
-  --carousel-view-width : 250px;
+  --carousel-total-height : 450px;
+  --carousel-total-width : 250px;
+
+  --carousel-image-height : 250px;
+  --carousel-image-width : 250px;
+
+  --carousel-text-height : 200px;
+  --carousel-text-width : 250px;
 
 }
 
@@ -27,8 +33,15 @@ font-family: 'Sacramento', cursive;
 @media (min-width : 820px) {
 
   :root {
-    --carousel-view-height : 400px;
-    --carousel-view-width : 600px;
+
+    --carousel-total-height : 450px;
+    --carousel-total-width : 650px;
+  
+    --carousel-image-height : 250px;
+    --carousel-image-width : 650px;
+  
+    --carousel-text-height : 200px;
+    --carousel-text-width : 650px;
     }
 
   .homepage-carousel {
@@ -39,26 +52,7 @@ font-family: 'Sacramento', cursive;
     font-size : 1.0em;
   }
 
-
-  .carousel-text-box {
-    /* https://www.tutorialrepublic.com/faq/how-to-position-text-over-an-image-using-css.php */
-    position: absolute;
-    z-index: 999;
-    /* margin: 0 auto; */
-    margin : 0 3% 0 3%;
-    left: 0;
-    right: 0;
-    top: 60%; /* Adjust this value to move the positioned div up and down */
-    text-align: center;
-    /* width: 90%; Set the width of the positioned div */
-     
-
-  }
-
-
 }
-
-
 
 a:link, a:visited {
   color:inherit;
@@ -245,48 +239,44 @@ main {
 }
 
 .homepage-carousel {
-  margin : 60px 30px 30px 30px;
-  border : black 1px solid;
-  height : var(--carousel-view-height);
-  width : var(--carousel-view-width);
+  margin : 40px 30px 30px 30px;
+  border : var(--light-blue) 1px solid;
+  height : var(--carousel-total-height);
+  width : var(--carousel-total-width);
   z-index : 1;
 }
 
 .homepage-carousel-item {
-  position : relative;
+  display : flex;
+  flex-direction : column;
+  
 }
 
-.slider-image {
-  position : relative;
-  height : var(--carousel-view-height);
-  width : var(--carousel-view-width);
+.slider-image {  
+  height : var(--carousel-image-height);
+  width : var(--carousel-image-width);
   z-index : 2;
   object-fit : cover;
 /* https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit */
-
 }
 
 .carousel-text-box {
   /* https://www.tutorialrepublic.com/faq/how-to-position-text-over-an-image-using-css.php */
-  position: absolute;
+  height : var(--carousel-text-height);
+  width : var(--carousel-text-width);
   z-index: 999;
-  /* margin: 0 auto; */
-  margin : 0 3% 0 3%;
-  left: 0;
-  right: 0;
-  top: 60%; /* Adjust this value to move the positioned div up and down */
   text-align: center;
-  /* width: 90%; Set the width of the positioned div */
-  
 
   color : var(--white);
   background-color : rgba(0,51,153,0.65);
   /* used rgba for background color so that white text is not affected 
   by opacity https://stackoverflow.com/questions/33512070/center-text-in-box-with-opacity-and-make-text-solid */
-  border : 1px solid black; 
-  border-radius : 6px;
+
 }
 
+.carousel-text-box > p {
+  padding : 0px 30px 0px 30px;
+}
 .homepage-welcome-message {
   margin : 0px 50px 15px 50px;
   display : flex;
