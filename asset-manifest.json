@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-ed-psychologist/static/css/main.ccc58caa.chunk.css",
-    "main.js": "/react-ed-psychologist/static/js/main.baea981e.chunk.js",
-    "main.js.map": "/react-ed-psychologist/static/js/main.baea981e.chunk.js.map",
+    "main.js": "/react-ed-psychologist/static/js/main.f76231b4.chunk.js",
+    "main.js.map": "/react-ed-psychologist/static/js/main.f76231b4.chunk.js.map",
     "runtime-main.js": "/react-ed-psychologist/static/js/runtime-main.9d0eef37.js",
     "runtime-main.js.map": "/react-ed-psychologist/static/js/runtime-main.9d0eef37.js.map",
     "static/css/2.70b3949b.chunk.css": "/react-ed-psychologist/static/css/2.70b3949b.chunk.css",
     "static/js/2.a577d916.chunk.js": "/react-ed-psychologist/static/js/2.a577d916.chunk.js",
     "static/js/2.a577d916.chunk.js.map": "/react-ed-psychologist/static/js/2.a577d916.chunk.js.map",
     "index.html": "/react-ed-psychologist/index.html",
-    "precache-manifest.b19aa1119e710ed55026d4365ec0ac85.js": "/react-ed-psychologist/precache-manifest.b19aa1119e710ed55026d4365ec0ac85.js",
+    "precache-manifest.a04b59ad0e143c227b04df6b56e8a665.js": "/react-ed-psychologist/precache-manifest.a04b59ad0e143c227b04df6b56e8a665.js",
     "service-worker.js": "/react-ed-psychologist/service-worker.js",
     "static/css/2.70b3949b.chunk.css.map": "/react-ed-psychologist/static/css/2.70b3949b.chunk.css.map",
     "static/css/main.ccc58caa.chunk.css.map": "/react-ed-psychologist/static/css/main.ccc58caa.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.70b3949b.chunk.css",
     "static/js/2.a577d916.chunk.js",
     "static/css/main.ccc58caa.chunk.css",
-    "static/js/main.baea981e.chunk.js"
+    "static/js/main.f76231b4.chunk.js"
   ]
 }
