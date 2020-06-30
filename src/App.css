@@ -391,7 +391,7 @@ footer {
 
 /* Position and sizing of burger button */
 .bm-burger-button {
-  position: fixed;
+  position: absolute !important;
   width: 36px;
   height: 30px;
   left: 36px;
@@ -404,7 +404,7 @@ footer {
   
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: black;
+  background: var(--light-blue);
 }
 
 /* Position and sizing of clickable cross button */
@@ -439,10 +439,15 @@ Sidebar wrapper styles
 Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
 */
 .bm-menu-wrap {
-  position: fixed;
-  height: 100%;
+  position: absolute !important;
+
+/*
+Use "calc() to subtract the 110px height of the header from the height of the burger sidebar, 
+otherwise your footer will be affected (and will be 110px from the bottom of the page).
+*/
+  height: calc(100% - 110px) !important;
   overflow : hidden;
-}
+  }
 
 /* General sidebar styles */
 .bm-menu {
@@ -450,7 +455,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   padding: 2.5em 1.5em 0;
   font-size: 1.15em;
   overflow : hidden;
-}
+ }
 
 /* Morph shape necessary with bubble or elastic */
 .bm-morph-shape {
@@ -461,6 +466,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-item-list {
   color: var(--white);
   padding: 0.8em;
+  
 }
 
 /* Individual item */
@@ -472,6 +478,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
   overflow : hidden;
+
 }
 
 /* ====================================================================== */
