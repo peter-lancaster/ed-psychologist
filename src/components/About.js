@@ -15,6 +15,16 @@ function About() {
             <p>I also have experience in this.</p>
             <p>I also have experience in this.</p>
             <p>I also have experience in this.</p>
+            <p>I also have experience in this.</p>
+            <p>I also have experience in this.</p>
+            <p>I also have experience in this.</p>
+            <p>I also have experience in this.</p>
+            <p>I also have experience in this.</p>
+            <p>I also have experience in this.</p>
+            <p>I also have experience in this.</p>
+            <p>I also have experience in this.</p>
+            <p>I also have experience in this.</p>
+            <p>I also have experience in this.</p>
 
     </div>)
 }
