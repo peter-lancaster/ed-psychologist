@@ -6,6 +6,29 @@ These blog posts are also interesting / useful.
 https://www.freecodecamp.org/news/surge-vs-github-pages-deploying-a-create-react-app-project-c0ecbf317089/
 https://itnext.io/so-you-want-to-host-your-single-age-react-app-on-github-pages-a826ab01e48
 
+Gh-pages deployment problems with react-router
+https://github.com/facebook/create-react-app/issues/1765
+The homepage setting only affects paths to JS and CSS in the produced HTML. It can’t affect your routing configuration.
+
+path='/' in your router configuration means you’re literally matching /. Only https://rockchalkwushock.github.io/ would match /.
+
+But your project is on /rcws-development/. However if you change the routing configuration to say /rcws-development/ then this won’t work in development on npm start because the development server serves from /.
+
+Two solutions:
+
+Don’t use HTML5 history on GitHub pages. Use hashHistory instead. Your URLs will look like https://rockchalkwushock.github.io/rcws-development/#path/inside/the/app.
+
+Use process.env.PUBLIC_URL in your route definitions so that they work both in development and after deployment. For example: <Route path={process.env.PUBLIC_URL + '/'}>. This will be empty in development and rcws-development (inferred from homepage) in production.
+
+In the future, we might flip the development server to also take homepage into account (#1582). If this happens, your project would get served at localhost:3000/rcws-development even locally so you'd bump into this issue earlier (and would have to use process.env.PUBLIC_URL in route definitions anyway). But we have not really decided on this yet.
+
+Hope this helps!
+
+
+https://dev.to/caffiendkitten/react-router-with-github-pages-en3
+
+https://github.community/t/my-react-project-doesnt-work-on-github-pages/10350/6
+
 
 
 ###################################################################################
