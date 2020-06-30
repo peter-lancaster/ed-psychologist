@@ -10,7 +10,6 @@ function MobileHeader(event) {
         <header className="mobile-header">
             <div className="mobile-upper-header-bar">
                 <i className="ri-mail-line ri-1.5x"></i> <span>jennywilson@emailprovider.com</span>
-                <i className="ri-phone-line "></i> <span>0207 811 8055</span>
             </div>
             <div className="mobile-lower-header-bar">
                     <h1><Link to="/">Jenny Wilson</Link></h1>
