@@ -2,8 +2,6 @@ import React from "react"
 
 function CarouselItem({anchorLink, imageUrl,textTitle,textPara}) {
 
-    console.log(anchorLink)
-
     return (
         <div className="homepage-carousel-item">
             <img className="slider-image" src={imageUrl}/>

@@ -9,18 +9,26 @@ import Services from "./components/Services"
 import ContactFormik from "./components/ContactFormik"
 import ContactHomeGrown from "./components/ContactHomeGrown"
 import MobileHeader from "./MobileHeader"
+import MobileFooter from "./MobileFooter"
 import {Context} from "./ContextProvider"
 
 function App() {
 
-  const {isBurgerNav} = useContext(Context)
+  const {isMobileNav, isMobileFooter} = useContext(Context)
 
   let whichHeader = ""
+  let whichFooter = ""
 
-  if (isBurgerNav) {
+  if (isMobileNav) {
     whichHeader = <MobileHeader />
   } else {
     whichHeader = <Header />
+  }
+
+  if (isMobileFooter) {
+    whichFooter = <MobileFooter />
+  } else {
+    whichFooter = <Footer />
   }
 
   return (
@@ -36,7 +44,7 @@ function App() {
           <Route path ="/contact-formik"><ContactFormik/></Route>
         </Switch>
       </main>
-    <Footer />
+    {whichFooter}
     </>
   )
 }
