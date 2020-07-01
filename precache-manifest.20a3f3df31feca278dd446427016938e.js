@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5823487fd0b4acabbd20cd41a92fc3d7",
+    "revision": "1d382cedd6537822b6a9d8858ae42336",
     "url": "/react-ed-psychologist/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-ed-psychologist/static/css/2.70b3949b.chunk.css"
   },
   {
-    "revision": "0cb1607d90d572620fb0",
-    "url": "/react-ed-psychologist/static/css/main.904add92.chunk.css"
+    "revision": "44fe0320686cc9a9be92",
+    "url": "/react-ed-psychologist/static/css/main.e5666fb0.chunk.css"
   },
   {
     "revision": "fac06991693371ffb2c4",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-ed-psychologist/static/js/2.a577d916.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0cb1607d90d572620fb0",
-    "url": "/react-ed-psychologist/static/js/main.2aa4c7d6.chunk.js"
+    "revision": "44fe0320686cc9a9be92",
+    "url": "/react-ed-psychologist/static/js/main.50751aca.chunk.js"
   },
   {
     "revision": "2829dbe85113a57dc58c",
